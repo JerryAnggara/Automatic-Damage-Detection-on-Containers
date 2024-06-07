@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Object Detection Container Damage</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename='containericon.png') }}" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="{{ url_for('static', filename='vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/remixicon/remixicon.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='vendor/swiper/css/swiper-bundle.min.css') }}" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center px-3">
+
+      <h1 class="logo me-auto"><a href="#hero"><img src="{{ url_for('static', filename='logoorbitfix.png') }}" alt="Logo" srcset=""></a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#services">Benefit</a></li>
+          <li><a class="nav-link scrollto" href="#about">Detection</a></li>
+          <li><a class="nav-link scrollto" href="javascript:void(0);" id="downloadLink">Dataset</a></li>
+          <li><a class="nav-link   scrollto" href="#team">Profil</a></li>
+          <li><a class="nav-link scrollto" href="#footer">Kontak</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container">
+      <div class="row px-5">
+        <div class="col-lg-7 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Vision Container Damage Detection System</h1>
+          <h2>Sistem Canggih Deteksi Otomatis Kerusakan Kontainer untuk Mengamankan dan Meningkatkan Efisiensi Pengelolaan Muatan Anda</h2>
+          <div class="d-flex justify-content-center justify-content-lg-start">
+            <a href="#about" class="btn-get-started scrollto">Coba Deteksi!</a>
+          </div>
+        </div>
+        <div class="col-lg-3 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="{{ url_for('static', filename='ContainerFIX.gif') }}" class="rounded-5" alt="Container GIF">
+        </div>
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+      <!-- ======= Services Section ======= -->
+      <section id="services" class="services section-bg">
+        <div class="container px-4" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Benefit</h2>
+            <p>Sistem ini memanfaatkan teknologi computer vision untuk secara otomatis mengidentifikasi kerusakan kontainer, termasuk deframe, lubang, lengkuk, dan karat pada kontainer. Terdapat detail manfaat sebagai berikut:</p>
+          </div>
+  
+          <div class="row">
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon-box">
+                <h4><a href="">Kecepatan dan Efisiensi Tinggi</a></h4>
+                <p>Sistem deteksi otomatis dapat secara cepat memindai dan menganalisis kontainer dalam waktu singkat</p>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+              <div class="icon-box">
+                <h4><a href="">Akurasi Tinggi dan Konsistensi</a></h4>
+                <p>Algoritma yang digunakan dapat dilatih untuk mengenali berbagai jenis kerusakan kontainer dengan tingkat akurasi yang tinggi</p>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+              <div class="icon-box">
+                <h4><a href="">Penghematan Biaya dan Sumber Daya</a></h4>
+                <p>Sistem pendeteksi otomatis mengoptimalkan inspeksi kontainer, mengurangi keterlibatan tenaga kerja, dan meminimalkan downtime operasional</p>
+              </div>
+            </div>
+  
+            <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+              <div class="icon-box">
+                <h4><a href="">Peningkatan Keamanan dan Kualitas Layanan</a></h4>
+                <p>Kecepatan, akurasi, dan efisiensi yang tinggi dari sistem ini berkontribusi pada peningkatan keamanan dan kualitas layanan</p>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Services Section -->
+
+    <!-- ======= About Us Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>System Deteksi</h2>
+          <p>Sistem deteksi ini menggunakan komputer vision untuk melakukan deteksi kerusakan kontainer. Pengguna perlu mengupload gambar kontainer dan klik "deteksi". Gambar yang diupload sedang proses dan akan menghasilkan fot/video kerusakan kontainer</p>
+        </div>
+
+        <div class="drag-area m-auto p-auto">
+          <div class="icon">
+            <img src="{{ url_for('static', filename='upload.png') }}" alt="" srcset="">
+          </div>
+          <header>Drag & Drop to Upload File</header>
+          <span>OR</span>
+          <form method="POST" enctype="multipart/form-data">
+            <!-- Tambahkan label untuk memilih gambar -->
+            <input type="file" name="file" accept=".jpg, .mp4" id="file" style="display: none;">
+            <!-- Tambahkan script untuk memicu klik pada label saat tombol "Choose a file" diklik -->
+            <button class="btn btn-primary" type="button" onclick="document.getElementById('file').click()">Choose a file</button>
+            <input type="submit" class="btn btn-success" value="Detect">
+          </form>
+        </div>
+
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!--
+    <h1>YOLOv8 Object Detection</h1>
+    <p>Upload an image or video for object detection:</p>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".jpg, .mp4">
+        <input type="submit" value="Detect">
+    </form>
+
+    {% if image_path %}
+    <h2>Detected Image:</h2>
+    <img src="{{ image_path }}" alt="Detected Image">
+    {% endif %}
+    -->
+    <!--
+    <div class="videodeteksi">
+      <img src="{{ image_path }}" class="img-fluid" alt="Detected Image">
+    </div>
+  -->
+    <div class="videodeteksi">
+      {% if image_path %}
+          {% if image_path.endswith(('.mp4', '.avi', '.mov')) %}
+              <video width="640" height="480" controls>
+                  <source src="{{ image_path }}" type="video/mp4">
+                  Your browser does not support the video tag.
+              </video>
+          {% else %}
+              <img src="{{ image_path }}" class="img-fluid" alt="Detected Image">
+          {% endif %}
+      {% endif %}
+    </div>
+
+    <!-- Team Section -->
+    <section id="team" class="team section-bg px-3">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='jerry.jpg') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Jerry Anggara</h4>
+                <p>2110631170072</p>
+                <p>Universitas Singaperbangsa Karawang</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='Fahmi.jpg') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Moch Fahmi Hidayatulloh</h4>
+                <p>30620035</p>
+                <p>Universitas Wanita internasional</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='Nisa.jpg') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Nisa Nuraeni Aenudin</h4>
+                <p>101121120011</p>
+                <p>Universitas Indonesia Membangun</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='Anggun.jpg') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Anggun Nurjanah</h4>
+                <p>11210210</p>
+                <p>Universitas Bina Sarana Informatika</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='Oca.jpg') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Rosa Rosiana</h4>
+                <p>41215331</p>
+                <p>STMIK IKMI CIREBON</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="member d-flex align-items-start">
+              <div class="pic"><img src="{{ url_for('static', filename='arlin.JPG') }}" class="img-fluid" alt="Profil Picture">
+              </div>
+              <div class="member-info">
+                <h4>Arlin Anissa Yolanda</h4>
+                <p>11210132</p>
+                <p>Universitas Bina Sarana Informatika kampus Karawang</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+  
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="footer-links">
+            <h4>Our Social Media</h4>
+            <p>Dapat menghubungi kami lewat sosial media tersebut</p>
+            <div class="social-links">
+              <a href="" class="twitter"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.instagram.com/jerry.agg/" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/jerry.agg/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="https://www.linkedin.com/in/jerry-anggara-12b4a6266/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+<!-- Vendor JS Files -->
+<script src="{{ url_for('static', filename='vendor/aos/aos.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/glightbox/js/glightbox.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/swiper/swiper-bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/waypoints/noframework.waypoints.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/php-email-form/validate.js') }}"></script>
+
+<!-- Template Main JS File -->
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+</body>
+
+</html>
