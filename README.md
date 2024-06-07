@@ -10,3 +10,4 @@ Model accuracy:
 ![Screenshot 2024-06-07 175334](https://github.com/JerryAnggara/Automatic-Damage-Detection-on-Containers/assets/110831709/67082c4c-864e-44da-a0e5-722b8d6de2a4)
 
 Detection results:
+![Uploading Screenshot 2024-06-08 064035.png…]()
